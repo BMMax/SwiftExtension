@@ -12,6 +12,7 @@
 		CE2DB2541E13C317009783E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2DB2521E13C317009783E2 /* Main.storyboard */; };
 		CE2DB2561E13C318009783E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2DB2551E13C318009783E2 /* Assets.xcassets */; };
 		CE2DB2591E13C318009783E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2DB2571E13C318009783E2 /* LaunchScreen.storyboard */; };
+		CE2DB2621E13C866009783E2 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2DB2611E13C866009783E2 /* ArrayExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		CE2DB2551E13C318009783E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE2DB2581E13C318009783E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE2DB25A1E13C318009783E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2DB2611E13C866009783E2 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		CE2DB2631E141527009783E2 /* test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = test.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +57,24 @@
 		CE2DB24D1E13C317009783E2 /* SwiftExtension */ = {
 			isa = PBXGroup;
 			children = (
+				CE2DB2601E13C7D1009783E2 /* Extension */,
 				CE2DB24E1E13C317009783E2 /* AppDelegate.swift */,
 				CE2DB2501E13C317009783E2 /* ViewController.swift */,
+				CE2DB2631E141527009783E2 /* test.playground */,
 				CE2DB2521E13C317009783E2 /* Main.storyboard */,
 				CE2DB2551E13C318009783E2 /* Assets.xcassets */,
 				CE2DB2571E13C318009783E2 /* LaunchScreen.storyboard */,
 				CE2DB25A1E13C318009783E2 /* Info.plist */,
 			);
 			path = SwiftExtension;
+			sourceTree = "<group>";
+		};
+		CE2DB2601E13C7D1009783E2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CE2DB2611E13C866009783E2 /* ArrayExtensions.swift */,
+			);
+			name = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE2DB2511E13C317009783E2 /* ViewController.swift in Sources */,
+				CE2DB2621E13C866009783E2 /* ArrayExtensions.swift in Sources */,
 				CE2DB24F1E13C317009783E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +314,7 @@
 				CE2DB25F1E13C318009783E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
