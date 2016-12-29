@@ -14,6 +14,7 @@
 		CE2DB2591E13C318009783E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2DB2571E13C318009783E2 /* LaunchScreen.storyboard */; };
 		CE2DB2621E13C866009783E2 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2DB2611E13C866009783E2 /* ArrayExtensions.swift */; };
 		CE30E37F1E14B07700CBC360 /* BoolExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30E37E1E14B07700CBC360 /* BoolExtensions.swift */; };
+		CEC4B64B1E14B67C00852352 /* CharacterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC4B64A1E14B67C00852352 /* CharacterExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		CE2DB2611E13C866009783E2 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
 		CE2DB2631E141527009783E2 /* test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = test.playground; sourceTree = "<group>"; };
 		CE30E37E1E14B07700CBC360 /* BoolExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoolExtensions.swift; sourceTree = "<group>"; };
+		CEC4B64A1E14B67C00852352 /* CharacterExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			children = (
 				CE2DB2611E13C866009783E2 /* ArrayExtensions.swift */,
 				CE30E37E1E14B07700CBC360 /* BoolExtensions.swift */,
+				CEC4B64A1E14B67C00852352 /* CharacterExtensions.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE2DB2511E13C317009783E2 /* ViewController.swift in Sources */,
+				CEC4B64B1E14B67C00852352 /* CharacterExtensions.swift in Sources */,
 				CE2DB2621E13C866009783E2 /* ArrayExtensions.swift in Sources */,
 				CE2DB24F1E13C317009783E2 /* AppDelegate.swift in Sources */,
 				CE30E37F1E14B07700CBC360 /* BoolExtensions.swift in Sources */,

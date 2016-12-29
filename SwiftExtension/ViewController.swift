@@ -30,9 +30,23 @@ class ViewController: UIViewController {
         print("testArray---\(testArray.indexs(of: 4))")
 
 
-        
+        let string = "45🌹🐩"
+        print("testArray---\(string.characters.last?.isEmoji)")
 
+       
+        let s = Character("y")
+      
+        print("s------\(s * 5)")
+        print("s------\(6 * s)")
+        
+        
+        
+        
     }
+    
+    
+    
+  
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
