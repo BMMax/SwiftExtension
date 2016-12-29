@@ -39,6 +39,8 @@ class ViewController: UIViewController {
         print("s------\(s * 5)")
         print("s------\(6 * s)")
         
+        print("date-------\(Date().calendar)")
+        
         
         
         

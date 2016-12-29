@@ -15,7 +15,19 @@
 		CE2DB2621E13C866009783E2 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2DB2611E13C866009783E2 /* ArrayExtensions.swift */; };
 		CE30E37F1E14B07700CBC360 /* BoolExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30E37E1E14B07700CBC360 /* BoolExtensions.swift */; };
 		CEC4B64B1E14B67C00852352 /* CharacterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC4B64A1E14B67C00852352 /* CharacterExtensions.swift */; };
+		CEC4B64D1E14E7CB00852352 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC4B64C1E14E7CB00852352 /* DateExtensions.swift */; };
+		CEC4B6671E14ED0C00852352 /* DateExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC4B6661E14ED0C00852352 /* DateExtensionTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEC4B6691E14ED0D00852352 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2DB2431E13C316009783E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE2DB24A1E13C316009783E2;
+			remoteInfo = SwiftExtension;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		CE2DB24B1E13C316009783E2 /* SwiftExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,10 +41,21 @@
 		CE2DB2631E141527009783E2 /* test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = test.playground; sourceTree = "<group>"; };
 		CE30E37E1E14B07700CBC360 /* BoolExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoolExtensions.swift; sourceTree = "<group>"; };
 		CEC4B64A1E14B67C00852352 /* CharacterExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterExtensions.swift; sourceTree = "<group>"; };
+		CEC4B64C1E14E7CB00852352 /* DateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		CEC4B6641E14ED0C00852352 /* DateExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC4B6661E14ED0C00852352 /* DateExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensionTests.swift; sourceTree = "<group>"; };
+		CEC4B6681E14ED0D00852352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CE2DB2481E13C316009783E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC4B6611E14ED0C00852352 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				CE2DB24D1E13C317009783E2 /* SwiftExtension */,
+				CEC4B6651E14ED0C00852352 /* DateExtensionTests */,
 				CE2DB24C1E13C316009783E2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				CE2DB24B1E13C316009783E2 /* SwiftExtension.app */,
+				CEC4B6641E14ED0C00852352 /* DateExtensionTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,8 +104,18 @@
 				CE2DB2611E13C866009783E2 /* ArrayExtensions.swift */,
 				CE30E37E1E14B07700CBC360 /* BoolExtensions.swift */,
 				CEC4B64A1E14B67C00852352 /* CharacterExtensions.swift */,
+				CEC4B64C1E14E7CB00852352 /* DateExtensions.swift */,
 			);
 			name = Extension;
+			sourceTree = "<group>";
+		};
+		CEC4B6651E14ED0C00852352 /* DateExtensionTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEC4B6661E14ED0C00852352 /* DateExtensionTests.swift */,
+				CEC4B6681E14ED0D00852352 /* Info.plist */,
+			);
+			path = DateExtensionTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,6 +138,24 @@
 			productReference = CE2DB24B1E13C316009783E2 /* SwiftExtension.app */;
 			productType = "com.apple.product-type.application";
 		};
+		CEC4B6631E14ED0C00852352 /* DateExtensionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC4B66B1E14ED0D00852352 /* Build configuration list for PBXNativeTarget "DateExtensionTests" */;
+			buildPhases = (
+				CEC4B6601E14ED0C00852352 /* Sources */,
+				CEC4B6611E14ED0C00852352 /* Frameworks */,
+				CEC4B6621E14ED0C00852352 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC4B66A1E14ED0D00852352 /* PBXTargetDependency */,
+			);
+			name = DateExtensionTests;
+			productName = DateExtensionTests;
+			productReference = CEC4B6641E14ED0C00852352 /* DateExtensionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -117,6 +170,12 @@
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 5L96Q6N9ZW;
 						ProvisioningStyle = Automatic;
+					};
+					CEC4B6631E14ED0C00852352 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 5L96Q6N9ZW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE2DB24A1E13C316009783E2;
 					};
 				};
 			};
@@ -134,6 +193,7 @@
 			projectRoot = "";
 			targets = (
 				CE2DB24A1E13C316009783E2 /* SwiftExtension */,
+				CEC4B6631E14ED0C00852352 /* DateExtensionTests */,
 			);
 		};
 /* End PBXProject section */
@@ -149,6 +209,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CEC4B6621E14ED0C00852352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -161,10 +228,27 @@
 				CE2DB2621E13C866009783E2 /* ArrayExtensions.swift in Sources */,
 				CE2DB24F1E13C317009783E2 /* AppDelegate.swift in Sources */,
 				CE30E37F1E14B07700CBC360 /* BoolExtensions.swift in Sources */,
+				CEC4B64D1E14E7CB00852352 /* DateExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC4B6601E14ED0C00852352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC4B6671E14ED0C00852352 /* DateExtensionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEC4B66A1E14ED0D00852352 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE2DB24A1E13C316009783E2 /* SwiftExtension */;
+			targetProxy = CEC4B6691E14ED0D00852352 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CE2DB2521E13C317009783E2 /* Main.storyboard */ = {
@@ -303,6 +387,34 @@
 			};
 			name = Release;
 		};
+		CEC4B66C1E14ED0D00852352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5L96Q6N9ZW;
+				INFOPLIST_FILE = DateExtensionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = binM.DateExtensionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftExtension.app/SwiftExtension";
+			};
+			name = Debug;
+		};
+		CEC4B66D1E14ED0D00852352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5L96Q6N9ZW;
+				INFOPLIST_FILE = DateExtensionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = binM.DateExtensionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftExtension.app/SwiftExtension";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -323,6 +435,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		CEC4B66B1E14ED0D00852352 /* Build configuration list for PBXNativeTarget "DateExtensionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC4B66C1E14ED0D00852352 /* Debug */,
+				CEC4B66D1E14ED0D00852352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
