@@ -84,6 +84,34 @@ public extension String{
     
         return String(characters.reversed())
     }
+    
+    /// string with no spaces and lines in beginning and ending
+    public var trimmed: String{
+    
+        return trimmingCharacters(in: .whitespacesAndNewlines)
+    }
+    
+    /// Date object from "yyyy-MM-dd" formatted string
+    public var date: Date?{
+    
+        let selfLowercased = trimmed.lowercased()
+        let formatter = DateFormatter()
+        formatter.timeZone = TimeZone.current
+        formatter.dateFormat = "yyyy-MM-dd"
+        return formatter.date(from: selfLowercased)
+        
+    }
+    
+    /// Date object from "yyyy-MM-dd HH:mm:ss" formatted string
+    public var dateTime:Date?{
+        let selfLowercased = trimmed.lowercased()
+        let formatter = DateFormatter()
+        formatter.timeZone = TimeZone.current
+        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+        return formatter.date(from: selfLowercased)
+    
+    }
+
 
     
     
