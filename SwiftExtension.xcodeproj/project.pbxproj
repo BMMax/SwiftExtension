@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE0F53881E169E93004EC8FA /* DataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0F53871E169E93004EC8FA /* DataExtensions.swift */; };
+		CE0F538A1E1BE493004EC8FA /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0F53891E1BE493004EC8FA /* StringExtensions.swift */; };
 		CE2DB24F1E13C317009783E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2DB24E1E13C317009783E2 /* AppDelegate.swift */; };
 		CE2DB2511E13C317009783E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2DB2501E13C317009783E2 /* ViewController.swift */; };
 		CE2DB2541E13C317009783E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2DB2521E13C317009783E2 /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		CE0F53871E169E93004EC8FA /* DataExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExtensions.swift; sourceTree = "<group>"; };
+		CE0F53891E1BE493004EC8FA /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		CE2DB24B1E13C316009783E2 /* SwiftExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2DB24E1E13C317009783E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE2DB2501E13C317009783E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				CEC4B64A1E14B67C00852352 /* CharacterExtensions.swift */,
 				CE0F53871E169E93004EC8FA /* DataExtensions.swift */,
 				CEC4B64C1E14E7CB00852352 /* DateExtensions.swift */,
+				CE0F53891E1BE493004EC8FA /* StringExtensions.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0F538A1E1BE493004EC8FA /* StringExtensions.swift in Sources */,
 				CE2DB2511E13C317009783E2 /* ViewController.swift in Sources */,
 				CEC4B64B1E14B67C00852352 /* CharacterExtensions.swift in Sources */,
 				CE2DB2621E13C866009783E2 /* ArrayExtensions.swift in Sources */,
